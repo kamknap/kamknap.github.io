@@ -1,0 +1,16 @@
+name: Notify IndexNow
+
+on:
+  push:
+    branches:
+      - main  # lub inna gałąź, jeśli używasz innej do GitHub Pages
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send IndexNow notification
+        env:
+          INDEXNOW_KEY: "44e38c7457494753b1b75120d80c5dae"  # zamień na swój wygenerowany klucz
+        run: |
+          curl "https://www.bing.com/indexnow?url=https://kamknap.github.io/&key=${INDEXNOW_KEY}"
