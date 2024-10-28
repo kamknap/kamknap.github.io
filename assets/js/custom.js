@@ -1,1 +1,2 @@
-window.addEventListener("DOMContentLoaded",()=>{console.log("Loaded Scripts")});
+window.addEventListener("DOMContentLoaded",()=>{console.log("Loaded Scripts");
+});
