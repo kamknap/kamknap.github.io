@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /private/
 Disallow: /temp/
 
-Sitemap: https://kamknap.github.io/sitemap.xmla 
+Sitemap: https://kamknap.github.io/sitemap.xml
