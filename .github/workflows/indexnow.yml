@@ -13,4 +13,4 @@ jobs:
         env:
           INDEXNOW_KEY: "44e38c7457494753b1b75120d80c5dae"  # zamień na swój wygenerowany klucz
         run: |
-          curl "https://www.bing.com/indexnow?url=https://kamknap.github.io/&key=${INDEXNOW_KEY}"
+          curl -v "https://www.bing.com/indexnow?url=https://kamknap.github.io/&key=${INDEXNOW_KEY}"
