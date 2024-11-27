@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import numpy as np
 import csv
 
+# Funkcja pobiera wszystkie linki z danej strony,
+# które prowadzą do tej samej domeny i kończą się na .html
 def get_links(url, domain):
     try:
         response = requests.get(url)
@@ -16,7 +18,7 @@ def get_links(url, domain):
                 href = domain + '/' + href
             if domain in href and href.endswith('.html'):
                 links.add(href)
-        print(f"Links found on {url}: {links}")  # Debugowanie
+        print(f"Links found on {url}: {links}")
         return links
     except requests.RequestException as e:
         print(f"Error fetching {url}: {e}")
@@ -88,6 +90,6 @@ with open('edges.csv', 'w', newline='') as csvfile:
     for i, page in enumerate(pages):
         for link in links[page]:
             if link in pages:
-                weight = page_ranks[page]  # Użycie PageRank jako wagi
-                print(f"Edge from {page} to {link} with weight {weight}")  # Debugowanie
+                weight = page_ranks[page]  # Użycie PageRank wagi
+                print(f"Edge from {page} to {link} with weight {weight}")
                 writer.writerow({'Source': page, 'Target': link, 'Weight': weight})
