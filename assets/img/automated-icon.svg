@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="7.11111in" height="7.11111in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 7111 7111" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   
+    .str0 {stroke:black;stroke-width:250;stroke-linecap:round;stroke-linejoin:round}
+    .fil0 {fill:none}
+   
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+  <g id="_296268600">
+   <path class="fil0 str0" d="M743 3556c0,1553 1259,2812 2813,2812 943,0 1778,-465 2288,-1179m524 -1633c0,-1554 -1259,-2813 -2812,-2813 -944,0 -1779,465 -2289,1179" id="id_101" style="stroke: rgb(71, 112, 254);"></path>
+   <polygon class="fil0 str0" points="125,3556 1362,3556 737,2744 " id="id_102" style="stroke: rgb(71, 112, 254);"></polygon>
+   <polygon class="fil0 str0" points="5749,3556 6986,3556 6361,4367 " id="id_103" style="stroke: rgb(71, 112, 254);"></polygon>
+   <path class="fil0 str0" d="M4046 5081c219,-71 418,-187 585,-338l665 230 357 -619 -532 -460c24,-109 36,-222 36,-338 0,-116 -12,-229 -36,-338l532 -461 -357 -619 -665 231c-167,-152 -366,-268 -585,-339l-133 -690 -715 0 -133 690c-219,71 -418,187 -585,339l-664 -231 -358 619 532 461c-24,109 -36,222 -36,338 0,116 12,229 36,338l-532 460 358 619 664 -230c167,151 366,267 585,338l133 690 715 0 133 -690z" id="id_104" style="stroke: rgb(71, 112, 254);"></path>
+   <circle class="fil0 str0" cx="3556" cy="3556" r="1131" id="id_105" style="stroke: rgb(71, 112, 254);"></circle>
+   <g>
+    <line class="fil0 str0" x1="3685" y1="3123" x2="3426" y2="3988" id="id_106" style="stroke: rgb(71, 112, 254);"></line>
+    <g>
+     <polyline class="fil0 str0" points="4035,3226 4288,3556 4035,3886 " id="id_107" style="stroke: rgb(71, 112, 254);"></polyline>
+     <polyline class="fil0 str0" points="3076,3226 2823,3556 3076,3886 " id="id_108" style="stroke: rgb(71, 112, 254);"></polyline>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
